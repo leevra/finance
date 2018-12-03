@@ -3,17 +3,9 @@ layout: default
 ---
 <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
+  <header class="post-header"><br>
     <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
-    <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
-    <p class="post-meta">
-    {{ site.locales[site.default_locale].PostedInCategories }}
-    {% for cat in page.categories %}
-    <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>{% unless page.categories.last == cat %}, {% endunless %}
-    {% endfor %} 
-
-	
-    </p>
+    <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" /><br>
   </header>
 
   <article class="post-content" itemprop="articleBody">
