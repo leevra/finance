@@ -31,7 +31,7 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   text-align:center; 
-  color: $grey-color;
+  color: $red-color;
 }
 
 .site-nav {
@@ -162,7 +162,7 @@
 
 .post-link {
   display: block;
-  font-size: 38px;//42px;
+  font-size: 25px;//42px;
 }
 
 
@@ -180,7 +180,7 @@
 }
 
 .post-title {
-  font-size: 20px;//42px;
+  font-size: 25px;//42px;
   letter-spacing: -1px;
   line-height: 1;
 
@@ -218,7 +218,7 @@
   p { padding:$spacing-unit/5 0; } 
   //margin-bottom: $spacing-unit;
   h1 { 
-    font-size: 38px;
+    font-size: 30px;
     line-height:1em;
     @include media-query($on-laptop){
       font-size: 36px;
@@ -226,7 +226,7 @@
 
   }
   h2 {
-    font-size: 32px;
+    font-size: 25px;
     line-height:1em;
     @include media-query($on-laptop) {
       font-size: 28px;
@@ -234,7 +234,7 @@
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 20px;
     line-height:1em;
 
     @include media-query($on-laptop) {
@@ -243,7 +243,7 @@
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 17px;
     line-height:1em;
 
     @include media-query($on-laptop) {
