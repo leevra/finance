@@ -13,7 +13,7 @@ locale: kr_KO
 github_username:  leevra
 disqus_shortname: finance.leeseungju.com
 favicon:     "/images/favicon.ico"
-aboutme: 안녕하세요.. Please enjoy it. # these are shown on aboutme-sidebar.
+aboutme: 안녕하세요. # these are shown on aboutme-sidebar.
 aboutme_photo: https://i.imgur.com/Mdc4szJl.jpg# your photo.
 google_analytics_key:   # put YOUR key here to enable tracking! (blank to disable)
 
