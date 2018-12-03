@@ -8,9 +8,9 @@ layout: default
     {% for post in paginator.posts %}
   
     <header class="post-header">
-      <h1 itemprop="name" class="post-title">
-        <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h1>
+      <h3 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="{{ post.url | prepend: site.baseurl }}">wfwfwf{{ post.title }}</a>
+      </h3>
       <meta itemprop="keywords" content="{{ post.tags | join: ',' }}" />
       <p class="post-meta">
       {{ site.locales[site.default_locale].PostedInCategories }}
