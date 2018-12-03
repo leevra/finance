@@ -17,10 +17,7 @@ layout: default
       {% for cat in post.categories %}
       <a href="{{site.baseurl}}/categories/#{{ cat }}">{{ cat }}</a>{% unless post.categories.last == cat%}, {% endunless %}
       {% endfor %}
-      {% if post.tags != empty %}
-      {{ site.locales[site.default_locale].Taggedwith }}
 
-      {% endif %}
       <time itemprop="datePublished" datetime="{{ post.date | date: '%Y-%m-%d' }}">
       {{ site.locales[site.default_locale].PostDate }}{{ post.date | date: "%b %-d, %Y" }}
       </time>
