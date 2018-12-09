@@ -6,7 +6,7 @@ email: help@leeseungju.com
 description: "은행별 아파트담보대출금리비교 정보, 대학생, 무직자소액대출 쉬운곳, 대출이자비교표 제공 인터넷대출사이트." # You can edit this line in _config.yml. It will appear in your document head meta and in your feed.xml site description
 keywords: "바른금융연구소, 무직자소액대출, 인터넷대출정보사이트"
 baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "https://asiarich.leevra.co" # the base hostname & protocol for your site
+url: "https://asiarich.leevra.com" # the base hostname & protocol for your site
 locale: kr_KO
 
 ### Personal info and site tools info:
